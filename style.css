@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "TTFirsNeueRegular";
+  src: url("../fonts/TTFirsNeueRegular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "TTFirsNeueMediumItalic";
+  src: url("../fonts/TTFirsNeueMediumItalic.ttf");
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "TTFirsNeueExtraBoldItalic";
+  src: url("../fonts/TTFirsNeueExtraBoldItalic.ttf");
+  font-style: italic;
+  font-weight: 700;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  color: white;
+  transition: 0.3s;
+  font-family: TT Firs Neue;
+}
+
+img, svg {
+  transition: 0.3s;
+}
+
+a:hover, button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.dnone {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(15, 15, 56);
+  background-image: url("/images/back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 56px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 48px;
+  color: white;
+  font-family: TT Firs Neue;
+  font-size: 43px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+.title .green {
+  color: #00AB4E;
+}
+
+.subtitle {
+  text-align: center;
+  color: rgb(15, 15, 56);
+  text-shadow: 1px 1px 0px white, -1px -1px 0px white, -1px 1px 0px white, 1px -1px 0px white;
+  font-family: TT Firs Neue;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text {
+  color: #FFF;
+  text-align: center;
+  font-family: TT Firs Neue;
+  font-size: 17.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 16px;
+}
+
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 41px;
+  row-gap: 17px;
+}
+.advantages .advantage {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.advantages .advantage .description {
+  color: #FFF;
+  font-family: TT Firs Neue;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+}
+
+button {
+  width: 188px;
+  height: 44px;
+  flex-shrink: 0;
+  background-color: #00AB4E;
+  margin-top: 45px;
+  justify-content: center;
+  align-content: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 67px;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+.links a {
+  width: 90px;
+  height: 28.8px;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+bottom {
+  color: #FFF;
+  font-family: TT Firs Neue;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 23px;
+}/*# sourceMappingURL=style.css.map */
